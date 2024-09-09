@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #00c853;
+}
+
+.nav1{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav2{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.contact{
+    
+    background-color: #00c853;
+    color:white;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.hero-content span {
+    color: #00c853;
+}
+
+.cta button {
+    margin: 20px 10px 0 0;
+    padding: 10px 20px;
+    background-color: #00c853;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.special-dishes {
+    padding: 50px;
+    text-align: center;
+}
+
+.dishes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dish img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.dish {
+    text-align: center;
+}
+
+.testimonials {
+    padding: 50px;
+    background-color: #f0f0f0;
+    text-align: center;
+    display: flex;
+}
+
+.testimonial img {
+    width: 100px;
+    border-radius: 50%;
+}
+.Services{
+    padding: 50px;
+    text-align: center;
+}
+.Explore{
+    background-color: #00c853;
+    border-radius: 1%;
+}
+
+.Footer{
+    padding: 50px;
+    text-align: center;
+}
